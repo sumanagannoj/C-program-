@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+int num,i,flag,m;
+scanf("%d",&m);
+for(num=1;num<=m;num++)
+{
+for(i=2,flag=0;i*i<=num;i++)
+{
+if(num%i==0)
+flag=1;
+}
+if(flag==0&&(num!=1))
+printf("%d ",num);
+}
+}
+INPUT:
+100
+OUTPUT:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
