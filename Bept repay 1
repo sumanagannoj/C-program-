@@ -34,7 +34,7 @@ Sample Output 1
 15000.00
 100.00
 14900.00
-Program
+PROGRAM
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
