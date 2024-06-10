@@ -1,0 +1,15 @@
+#include <stdio.h>
+void main()
+{
+int num,i;
+scanf("%d",&num);
+for(i=2;i*i<=num;i++)
+{
+    if(num%i==0)
+    break;
+}
+if(i*i>=num&&(num!=1))
+printf("%is a prime number",num);
+else
+printf("% is not a prime number",num);
+}
