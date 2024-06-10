@@ -1,0 +1,27 @@
+
+#include<stdio.h>
+void main()
+{
+int num,i,flag,m,count;
+scanf("%d",&m);
+for(num=1,count=1;count<=m;num++)
+{
+for(i=2,flag=0;i*i<=num;i++){
+if(num%i==0)
+{
+flag=1;
+break;
+}
+}
+if(flag==0 &&(num!=1)){
+    if(count==m){
+        printf("%d ",num);
+    }
+count++;
+}
+}
+}
+INPUT:
+10
+OUTPUT:
+29
