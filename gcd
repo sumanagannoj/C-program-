@@ -16,6 +16,8 @@ void main()
     }
     printf("%d",gcd);
 }
+input:
 133
 173
+output:
 1
