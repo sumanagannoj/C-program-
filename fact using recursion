@@ -13,5 +13,7 @@ void main()
     scanf("%d",&n);
    printf("%d",display(n));
 }
+input:
 5
+output:
 3
