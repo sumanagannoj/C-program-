@@ -12,5 +12,7 @@ void main()
     scanf("%d",&n);
     display(n);
 }
+input:
 10
+ouput:
 1010
